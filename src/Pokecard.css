@@ -1,0 +1,27 @@
+.Pokecard {
+  background-color: #fff;
+  width: 250px;
+  margin: 10px;
+  padding: 10px;
+  box-shadow: 7px 10px 12px -5px rgba(0, 0, 0, 0.52);
+  text-align: center;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.Pokecard:hover {
+  transform: scale(1.2);
+}
+
+.Pokecard img {
+  transition: all 1s;
+}
+
+.Pokecard img:hover {
+  transform: scale(1.5);
+  opacity: 0.7;
+}
+
+.Pokecard-data {
+  font-size: 80%;
+}

@@ -1,0 +1,18 @@
+.Pokedex-cards {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.isWinner,
+.isLooser {
+  font-weight: bold;
+}
+.isWinner {
+  color: green;
+  font-size: 45px;
+}
+.isLooser {
+  color: red;
+  font-size: 26px;
+}
